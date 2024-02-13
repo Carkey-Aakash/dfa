@@ -1,6 +1,7 @@
 <h1>DFA Keyword Recognizer</h1>
 
 This repository contains a C program that simulates a Deterministic Finite Automaton (DFA) designed to recognize keywords in the L language. It serves as a demonstration of DFA implementation in C for lexical analysis.
+
 L Language Overview
 
 In this project, we've simulated a DFA using a C program to recognize keywords in the <b>hypothetical language L</b>. While L isn't an actual programming language, we've chosen it for its simplicity and case sensitivity, making it ideal for DFA implementation. This approach allows us to focus on the DFA logic without the complexity of a real programming language like C, which has 32 keywords.
