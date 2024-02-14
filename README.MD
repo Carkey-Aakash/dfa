@@ -13,6 +13,8 @@ Assuming L to have five keywords (if, do, for, and, or), this program efficientl
 
 <h1>Preview</h1>
 <img src="KEYdfa.png">
+<br>
+<img src="transition-diagram.png">
 
 <h1>Usage Instructions</h1>
 
