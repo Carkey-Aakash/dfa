@@ -1,3 +1,4 @@
+//DFA
 #include <stdio.h>
 // Define states using an enum (enumeration)
 enum States {
@@ -135,7 +136,6 @@ int simulateDFA(const char *input) {
         }
         i++; // Move to the next symbol
     }
-
     // Check if the final state is the accepting state
     return (currentState == q2 ||currentState == q6 ||currentState == q8 ||currentState == q11);
 }
