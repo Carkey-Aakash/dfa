@@ -17,7 +17,6 @@ void initializeDFA() {
 // Function to simulate the DFA and check if the input is accepted
 int simulateDFA(const char *input) {
     int i = 0;
-    int onesCount = 0;
 
     // Iterate through the input string
     while (input[i] != '\0') { 
@@ -55,7 +54,7 @@ int simulateDFA(const char *input) {
                 }
                 break;
             case q2:
-                if (sizeof(symbol) == 1) {
+                if (input[i] != '\0') {
                     currentState = qReject;
                 }
                 break;
@@ -87,7 +86,7 @@ int simulateDFA(const char *input) {
                 }
                 break;
              case q6:
-                if (sizeof(symbol) == 1) {
+                if (input[i] != '\0') {
                     currentState = qReject;
                 }
                 break;
@@ -102,7 +101,7 @@ int simulateDFA(const char *input) {
                 }
                 break;
              case q8:
-                if (sizeof(symbol) == 1) {
+                if (input[i] != '\0') {
                     currentState = qReject;
                 }
                 break;
@@ -125,7 +124,7 @@ int simulateDFA(const char *input) {
                 }
                 break;
              case q11:
-                if (sizeof(symbol) == 1) {
+                if (input[i] != '\0') {
                     currentState = qReject;
                 }
                 break;
