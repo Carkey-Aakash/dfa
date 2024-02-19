@@ -12,7 +12,7 @@ Assuming L to have five keywords (if, do, for, and, or), this program efficientl
 </li>
 
 <h1>Preview</h1>
-<img src="KEYdfa.png">
+<img src="keywordsOfL.png">
 <br>
 <h3>Transition Diagram:</h3>
 <img src="transition-diagram.png">
