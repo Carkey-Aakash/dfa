@@ -1,3 +1,4 @@
+GOOD JOB PAT 
 <h1>DFA: Keyword Recognizer</h1>
 
 This repository contains a C program that simulates a Deterministic Finite Automaton (DFA) designed to recognize keywords in the hypothetical language L. It serves as a demonstration of DFA implementation in C for lexical analysis.
